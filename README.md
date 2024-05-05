@@ -22,15 +22,9 @@
 - `data/diabetes.csv` and `data/model_weights.mw`: data file and pre-trained model
 - `requirements.txt`: package requirements files
 
-## Локальный запуск приложения 
+## Запуск приложения 
 
-```shell
-$ python -m venv venv
-$ venv\Scripts\activate
-$ pip install -r requirements.txt
-$ streamlit run DPapp.py
-```
-Open http://localhost:8501 to view the app.
+https://diabet-prediction.streamlit.app/
 
 &copy; ANLobanov
 

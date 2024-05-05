@@ -7,12 +7,19 @@
 
 ## Колонки
 Pregnancies : number of pregnencies
+
 Glucose : mmol/L (millimoles per liter), Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+
 BloodPressure : diastolic blood pressure in mm of hg
+
 SkinThickness : triceps skin fold thickness in mm
+
 Insulin : the 2-Hour serum insulin (mu U/ml)
+
 BMI : Body mass index (weight in kg/(height in m)^2)
+
 DiabetesPedigreeFunction : Diabetes pedigree function
+
 Age : Age (years)
 
 ## Files

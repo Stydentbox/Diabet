@@ -7,26 +7,22 @@
 
 ## Колонки
 - Pregnancies : количество беременностей
-- Glucose : mmol/L (millimoles per liter)
-- BloodPressure : diastolic blood pressure in mm of hg
-- SkinThickness : triceps skin fold thickness in mm
-- Insulin : the 2-Hour serum insulin (mu U/ml)
-- BMI : Body mass index (weight in kg/(height in m)^2)
-- DiabetesPedigreeFunction : Diabetes pedigree function
-- Age : Age (years)
+- Glucose : Глюкоза mmol/L (millimoles per liter)
+- BloodPressure : Диастолическое артериальное давление в mm of hg
+- SkinThickness : Толщина кожной складки трицепса в мм
+- Insulin : 2-часовой сывороточный инсулин (mu U/ml)
+- BMI : Индекс массы тела (weight in kg/(height in m)^2)
+- DiabetesPedigreeFunction : Функция родословной диабета
+- Age : Возраст (лет)
 
-## Files
+## Файлы
 
 - `DPapp.py`: streamlit app file
 - `model.py`: script for generating the Random Forest classifier model
 - `data/diabetes.csv` and `data/model_weights.mw`: data file and pre-trained model
 - `requirements.txt`: package requirements files
 
-## Run App Locally 
-
-### Shell
-
-For directly run streamlit locally in the repo root folder as follows:
+## Локальный запуск приложения 
 
 ```shell
 $ python -m venv venv

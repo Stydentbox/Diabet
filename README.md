@@ -6,9 +6,9 @@
 Датасет содержат данные о женщинах индианках Пима старше 21 года.
 
 ## Колонки
-Pregnancies : number of pregnencies
+Pregnancies : количество беременностей
 
-Glucose : mmol/L (millimoles per liter), Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+Glucose : mmol/L (millimoles per liter)
 
 BloodPressure : diastolic blood pressure in mm of hg
 
@@ -26,7 +26,7 @@ Age : Age (years)
 
 - `DPapp.py`: streamlit app file
 - `model.py`: script for generating the Random Forest classifier model
-- `diabetes.csv` and `model_weights.mw`: data file and pre-trained model
+- `data/diabetes.csv` and `data/model_weights.mw`: data file and pre-trained model
 - `requirements.txt`: package requirements files
 
 ## Run App Locally 

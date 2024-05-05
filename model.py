@@ -31,7 +31,6 @@ def preprocess_data(df: pd.DataFrame, test=True):
     return X_train, X_test, y_train, y_test
 
 
-
 def fit_and_save_model(X_train, y_train, X_test, y_test, path="data/model_weights.mw"):
     model = KNeighborsClassifier()
     
